@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'storages',
     # external apps that needs to be loaded before Shuup
     'easy_thumbnails',
     # shuup themes
@@ -309,3 +310,5 @@ CSRF_COOKIE_SECURE              = True
 SECURE_HSTS_INCLUDE_SUBDOMAINS  = True
 SECURE_HSTS_SECONDS             = 1000000
 SECURE_FRAME_DENY               = True
+
+from myshop.aws.conf import *
