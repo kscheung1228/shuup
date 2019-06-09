@@ -25,9 +25,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'SOME+RANDOM+KEY(z9+3vnm(jb0u@&w68t#5_
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['cupnoodle.herokuapp.com']
+ALLOWED_HOSTS = ['cupnoodle.herokuapp.com','127.0.0.1']
 
 
 # Application definition
